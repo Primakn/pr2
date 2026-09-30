@@ -1,0 +1,294 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #111;
+    line-height: 1.4;
+    padding: 40px;
+    margin: 0;
+}
+
+span {
+    display: block;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 11px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo__circle {
+    width: 35px;
+    height: 35px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.logo__rect {
+    width: 50px;
+    height: 20px;
+    background-color: #000;
+}
+
+.logo--small .logo__circle {
+    width: 25px;
+    height: 25px;
+}
+
+.logo--small .logo__rect {
+    width: 40px;
+    height: 16px;
+}
+
+.nav {
+    display: flex;
+    gap: 3px;
+}
+
+.nav__item {
+    width: 80px;
+    height: 25px;
+    background-color: #000;
+}
+
+.nav--small .nav__item {
+    width: 60px;
+    height: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero__text {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.hero__graphic {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__circle {
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.features__blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 0 150px;
+    margin-top: -20px;
+}
+
+.features__block {
+    width: 150px;
+    height: 80px;
+    background-color: #000;
+}
+
+.features__text {
+    flex: 1 1 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.features__icons {
+    flex: 1 1 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-card--compact .text-card__title {
+    font-size: 13px;
+}
+
+.icon-card {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.icon-card__icon {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.icon-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.content {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.content__main {
+    flex: 1 1 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__aside {
+    flex: 1 1 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.mini-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.main__intro-text {
+    flex: 1 1 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main__circle {
+    width: 180px;
+    height: 180px;
+    background-color: #000;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.main__blocks {
+    display: flex;
+    gap: 15px;
+}
+
+.main__block {
+    flex: 1 1 0;
+    height: 100px;
+    background-color: #000;
+}
+
+.main__columns {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main__column {
+    flex: 1 1 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.aside__nav {
+    flex-wrap: wrap;
+}
+
+.aside__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aside__circle-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.aside__circle {
+    width: 180px;
+    height: 180px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.aside__blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aside__block {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
